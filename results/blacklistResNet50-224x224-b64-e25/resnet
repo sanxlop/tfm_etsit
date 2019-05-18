@@ -1,0 +1,49 @@
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+Epoch 1/25
+1177/1177 [==============================] - 2253s 2s/step - loss: 1.9795 - acc: 0.5029 - val_loss: 1.4788 - val_acc: 0.6104
+
+Epoch 00001: val_loss improved from inf to 1.47876, saving model to drive/My Drive/blacklistResNet50-224x224-b64-e25/model-best-ResNet50-224x224-b64-e25.h5
+
+Epoch 00001: saving model to drive/My Drive/blacklistResNet50-224x224-b64-e25/model-last-ResNet50-224x224-b64-e25.h5
+Epoch 2/25
+1177/1177 [==============================] - 2235s 2s/step - loss: 1.3087 - acc: 0.6529 - val_loss: 2.1234 - val_acc: 0.5093
+
+Epoch 00002: val_loss did not improve from 1.47876
+
+Epoch 00002: saving model to drive/My Drive/blacklistResNet50-224x224-b64-e25/model-last-ResNet50-224x224-b64-e25.h5
+Epoch 3/25
+1177/1177 [==============================] - 2188s 2s/step - loss: 1.0871 - acc: 0.7054 - val_loss: 1.2546 - val_acc: 0.6713
+
+Epoch 00003: val_loss improved from 1.47876 to 1.25458, saving model to drive/My Drive/blacklistResNet50-224x224-b64-e25/model-best-ResNet50-224x224-b64-e25.h5
+
+Epoch 00003: saving model to drive/My Drive/blacklistResNet50-224x224-b64-e25/model-last-ResNet50-224x224-b64-e25.h5
+Epoch 4/25
+1177/1177 [==============================] - 2063s 2s/step - loss: 0.9471 - acc: 0.7405 - val_loss: 1.1735 - val_acc: 0.6924
+
+Epoch 00004: val_loss improved from 1.25458 to 1.17349, saving model to drive/My Drive/blacklistResNet50-224x224-b64-e25/model-best-ResNet50-224x224-b64-e25.h5
+
+Epoch 00004: saving model to drive/My Drive/blacklistResNet50-224x224-b64-e25/model-last-ResNet50-224x224-b64-e25.h5
+Epoch 5/25
+1177/1177 [==============================] - 1996s 2s/step - loss: 0.8492 - acc: 0.7620 - val_loss: 1.8638 - val_acc: 0.5643
+
+Epoch 00005: val_loss did not improve from 1.17349
+
+Epoch 00005: saving model to drive/My Drive/blacklistResNet50-224x224-b64-e25/model-last-ResNet50-224x224-b64-e25.h5
+Epoch 6/25
+1177/1177 [==============================] - 1963s 2s/step - loss: 0.7556 - acc: 0.7864 - val_loss: 1.3717 - val_acc: 0.6522
+
+Epoch 00006: ReduceLROnPlateau reducing learning rate to 0.004999999888241291.
+
+Epoch 00006: val_loss did not improve from 1.17349
+
+Epoch 00006: saving model to drive/My Drive/blacklistResNet50-224x224-b64-e25/model-last-ResNet50-224x224-b64-e25.h5
+Epoch 7/25
+1177/1177 [==============================] - 1975s 2s/step - loss: 0.5147 - acc: 0.8514 - val_loss: 0.8175 - val_acc: 0.7822
+
+Epoch 00007: val_loss improved from 1.17349 to 0.81752, saving model to drive/My Drive/blacklistResNet50-224x224-b64-e25/model-best-ResNet50-224x224-b64-e25.h5
+
+Epoch 00007: saving model to drive/My Drive/blacklistResNet50-224x224-b64-e25/model-last-ResNet50-224x224-b64-e25.h5
+Epoch 8/25
+ 173/1177 [===>..........................] - ETA: 25:08 - loss: 0.3937 - acc: 0.8848
