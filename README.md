@@ -1,5 +1,5 @@
 # DEVELOPMENT OF A FOOD IMAGE CLASSIFICATION SYSTEM BASED ON TRANSFER LEARNING WITH CONVOLUTIONAL NEURAL NETWORKS
-### by Alberto Sánchez López
+by Alberto Sánchez López
 
 ----
 
@@ -42,9 +42,9 @@ Finally, the results obtained are analyzed and the optimal model for the project
       > This notebook shows how to build a database by extracting data from web pages using web scraping techniques and applying a deep learning model for classifying. Based on the nature of the project, TripAdvisor web is selected. The main idea is to use TripAdvisor restaurants information and food images from reviews to model a dataset for our study case.
       
 3. __`model-best-MobileNetV2-224x224-b64-e25.h5`__:
-      > Light Keras model generated for mobile applications.
+      > Light Keras model generated for mobile applications. It can be used directly to predict food images category with Keras.
 
 4. __`results`__:
-      > Folder containing all model training reports and graphics.
+      > Folder containing all training reports and graphics, and the data extracted from web scraping.
       
        
