@@ -5,10 +5,10 @@ by Alberto Sánchez López
 
 ## Links
 
-      · [Transfer Learning Model for Image Recognition](https://nbviewer.jupyter.org/github/sanxlop/tfm_etsit/blob/master/transfer_learning_model_for_image_recognition.ipynb)
-      · [Web Scraping System for Data Extraction](https://nbviewer.jupyter.org/github/sanxlop/tfm_etsit/blob/master/web_scraping_system_for_data_extraction.ipynb)
-      · [Foodiefy for Android](https://play.google.com/store/apps/details?id=com.phonegap.foodiefy)
-      · [Foodiefy Website]()
+#### · [Transfer Learning Model for Image Recognition](https://nbviewer.jupyter.org/github/sanxlop/tfm_etsit/blob/master/transfer_learning_model_for_image_recognition.ipynb)
+#### · [Web Scraping System for Data Extraction](https://nbviewer.jupyter.org/github/sanxlop/tfm_etsit/blob/master/web_scraping_system_for_data_extraction.ipynb)
+#### · [Foodiefy for Android](https://play.google.com/store/apps/details?id=com.phonegap.foodiefy)
+#### · [Foodiefy Website]()
 
 ----
 
