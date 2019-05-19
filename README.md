@@ -13,9 +13,9 @@ by Alberto Sánchez López
 
 ## Description
 
-The main goal of this project is developing an image classification system based on transfer learning with convolutional neural networks, focused on object recognition. Are employed several pre-trained architectures accessible from [Keras](https://keras.io/), a high-level API developed on TensorFlow highlighted for deep learning research. System evaluation is carried out by a popular dataset of labeled food [ETHZ Food-101](https://www.vision.ee.ethz.ch/datasets_extra/food-101/) which measures the quality of each of the previous architectures.
+The main goal of this project is developing an image classification system based on transfer learning with convolutional neural networks, focused on object recognition. Are employed several pre-trained architectures accessible from [Keras](https://keras.io/), a high-level API developed on [TensorFlow](https://www.tensorflow.org/) highlighted for deep learning research. System evaluation is carried out by a popular dataset of labeled food [ETHZ Food-101](https://www.vision.ee.ethz.ch/datasets_extra/food-101/) which measures the quality of each of the previous architectures.
 
-The practical case of use carried out with this system is the prediction of the class and labeling of thousands of food images of restaurants mined from [TripAdvisor](https://www.tripadvisor.es/) with Selenium. From this new set of data, a restaurant search engine based on food images is implemented, that means, the search of restaurants is done by food photographs appearance. Everything mentioned above is developed in a web application to show all the objectives achieved.
+The practical case of use carried out with this system is the prediction of the class and labeling of thousands of food images of restaurants mined from [TripAdvisor](https://www.tripadvisor.es/) with [Selenium WebDriver](https://www.seleniumhq.org/projects/webdriver/). From this new set of data, a restaurant search engine based on food images is implemented, that means, the search of restaurants is done by food photographs appearance. Everything mentioned above is developed in a web application to show all the objectives achieved.
 
 ----
 
@@ -44,7 +44,7 @@ Finally, the results obtained are analyzed and the optimal model for the project
 3. __`model-best-MobileNetV2-224x224-b64-e25.h5`__:
       > Light Keras model generated for mobile applications. It can be used directly to predict food images category with Keras.
 
-4. __`results`__:
+4. __`/results`__:
       > Folder containing all training reports and graphics, and the data extracted from web scraping.
       
        
