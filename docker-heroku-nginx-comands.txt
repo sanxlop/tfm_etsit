@@ -1,0 +1,37 @@
+##============= LOCAL ============
+#Dockerfile:
+
+FROM nginx:alpine
+COPY . /usr/share/nginx/html
+
+#Commands
+docker build -t foodiefy-image:v1 .
+docker ps -a
+docker images
+docker run -d -p 4000:80 foodiefy-image:v1
+$(docker-machine ip default)
+docker save --output foodiefy-image.tar foodiefy-image:v1
+
+##============= Heroku ============
+#Dockerfile
+FROM nginx
+COPY . /usr/share/nginx/html
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+CMD sed -i -e 's/$PORT/'"$PORT"'/g' /etc/nginx/conf.d/default.conf && nginx -g 'daemon off;'
+
+#ngix.conf
+server {
+  listen $PORT default_server;
+
+  location / {
+    root   /usr/share/nginx/html;
+    index  index.html;
+  }
+}
+
+#Commands
+heroku login
+heroku container:login
+docker build -t web .
+heroku container:push web --app foodiefy
+heroku container:release web --app foodiefy
